@@ -10,10 +10,21 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            // Test
+            Button {
+                DownloaderClient().filmleriIndır(search: "Bergman") { sonuc in
+                    switch sonuc {
+                    case .success(let filmDizisi):
+                        print(filmDizisi)
+                          
+                    case .failure(let hata):
+                        print(hata)
+                    }
+                }
+            } label: {
+                Text("Verileri indir")
+            }
+
         }
         .padding()
     }

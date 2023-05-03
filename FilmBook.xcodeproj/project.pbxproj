@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20EA809D2A03168800A94662 /* DownloaderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EA809C2A03168800A94662 /* DownloaderClient.swift */; };
 		20F15B032A02BFA100E35988 /* FilmBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F15B022A02BFA100E35988 /* FilmBookApp.swift */; };
 		20F15B052A02BFA100E35988 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F15B042A02BFA100E35988 /* ContentView.swift */; };
 		20F15B072A02BFA200E35988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F15B062A02BFA200E35988 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20EA809C2A03168800A94662 /* DownloaderClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloaderClient.swift; sourceTree = "<group>"; };
 		20F15AFF2A02BFA100E35988 /* FilmBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F15B022A02BFA100E35988 /* FilmBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmBookApp.swift; sourceTree = "<group>"; };
 		20F15B042A02BFA100E35988 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		20EA809B2A03161300A94662 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				20EA809C2A03168800A94662 /* DownloaderClient.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				20F15B052A02BFA100E35988 /* ContentView.swift in Sources */,
 				20F15B312A02CACF00E35988 /* Film.swift in Sources */,
 				20F15B032A02BFA100E35988 /* FilmBookApp.swift in Sources */,
+				20EA809D2A03168800A94662 /* DownloaderClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

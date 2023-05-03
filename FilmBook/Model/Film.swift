@@ -21,14 +21,14 @@ struct Film : Codable {
     private enum CodingKeys: String, CodingKey {
         case title = "Title"
         case year = "Year"
-        case imdbId = "imdbId"
-        case type = "type"
+        case imdbId = "imdbID"
+        case type = "Type"
         case poster = "Poster"
     }
     
 }
 
-struct IcomingMovies : Codable {
+struct GelenFilmler : Codable {
     
     let filmler : [Film]
     
