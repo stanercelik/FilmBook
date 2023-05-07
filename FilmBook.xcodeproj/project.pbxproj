@@ -10,6 +10,7 @@
 		20BCFA9F2A079678004F7EA8 /* FilmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BCFA9E2A079678004F7EA8 /* FilmViewModel.swift */; };
 		20BCFAA12A07A48C004F7EA8 /* ImageDownloaderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BCFAA02A07A48C004F7EA8 /* ImageDownloaderClient.swift */; };
 		20BCFAA42A07A628004F7EA8 /* OzelImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BCFAA32A07A628004F7EA8 /* OzelImageView.swift */; };
+		20BCFAA62A07C893004F7EA8 /* FilmDetay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BCFAA52A07C893004F7EA8 /* FilmDetay.swift */; };
 		20EA809D2A03168800A94662 /* DownloaderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EA809C2A03168800A94662 /* DownloaderClient.swift */; };
 		20F15B032A02BFA100E35988 /* FilmBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F15B022A02BFA100E35988 /* FilmBookApp.swift */; };
 		20F15B052A02BFA100E35988 /* FilmListeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F15B042A02BFA100E35988 /* FilmListeView.swift */; };
@@ -42,6 +43,7 @@
 		20BCFA9E2A079678004F7EA8 /* FilmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewModel.swift; sourceTree = "<group>"; };
 		20BCFAA02A07A48C004F7EA8 /* ImageDownloaderClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderClient.swift; sourceTree = "<group>"; };
 		20BCFAA32A07A628004F7EA8 /* OzelImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzelImageView.swift; sourceTree = "<group>"; };
+		20BCFAA52A07C893004F7EA8 /* FilmDetay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetay.swift; sourceTree = "<group>"; };
 		20EA809C2A03168800A94662 /* DownloaderClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloaderClient.swift; sourceTree = "<group>"; };
 		20F15AFF2A02BFA100E35988 /* FilmBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F15B022A02BFA100E35988 /* FilmBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmBookApp.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				20F15B302A02CACF00E35988 /* Film.swift */,
+				20BCFAA52A07C893004F7EA8 /* FilmDetay.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20BCFAA42A07A628004F7EA8 /* OzelImageView.swift in Sources */,
+				20BCFAA62A07C893004F7EA8 /* FilmDetay.swift in Sources */,
 				20F15B052A02BFA100E35988 /* FilmListeView.swift in Sources */,
 				20F15B312A02CACF00E35988 /* Film.swift in Sources */,
 				20BCFA9F2A079678004F7EA8 /* FilmViewModel.swift in Sources */,
