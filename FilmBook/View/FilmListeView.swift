@@ -13,29 +13,30 @@ struct FilmListeView: View {
     
     init() {
         self.filmListeViewModel = FilmListeViewModel()
-        self.filmListeViewModel.filmAramasiYap(filmIsmi: "Autumn")
+        self.filmListeViewModel.filmAramasiYap(filmIsmi: "portrait")
     }
     
     
     
     var body: some View {
-        List(filmListeViewModel.filmler, id: \.imdbId) {
-            film in
-            HStack{
-                Image("placeholder2")
-                    .resizable()
-                    .frame(width: 100, height: 150)
-                
-                VStack (alignment: .leading){
-                    Text(film.title)
-                        .font(.title3).bold()
+        NavigationView{
+            List(filmListeViewModel.filmler, id: \.imdbId) {
+                film in
+                HStack{
+                    OzelImageView(url: film.poster)
+                        .frame(width: 90, height: 130)
                     
-                    
-                    Text(film.year)
-                        .font(.subheadline)
-                    
+                    VStack (alignment: .leading){
+                        Text(film.title)
+                            .font(.title3).bold()
+                        
+                        
+                        Text(film.year)
+                            .font(.subheadline)
+                        
+                    }
                 }
-            }
+            } .navigationTitle("Film Book")
         }
     }
 }
