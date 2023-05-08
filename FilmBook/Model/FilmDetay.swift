@@ -31,7 +31,7 @@ struct FilmDetay : Codable {
         case runtime = "Runtime"
         case genre = "Genre"
         case director = "Director"
-        case actor = "Actor"
+        case actors = "Actors"
         case plot = "Plot"
         case awards = "Awards"
         case metascore = "Metascore"

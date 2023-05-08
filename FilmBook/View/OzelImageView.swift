@@ -22,7 +22,7 @@ struct OzelImageView: View {
             return Image(uiImage: UIImage(data: data)!)
                 .resizable()
         } else {
-            return Image("placeholder")
+            return Image("")
                 .resizable()
         }
     }
